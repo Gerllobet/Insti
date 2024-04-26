@@ -3,15 +3,15 @@ def caniques():
   PotA = ["YA", "YA", "YA", "YA", "YA", "GA", "GA", "GA", "GA", "GA", "GA", "GA", "GA"]
   PotB = ["YB", "YB", "GA", "GA", "GA", "GA", "GA", "GA"]
   
-  M1 = randint(0, 12) 
-  M2 = randint(0, 12)
+  M1 = random.randint(0, 12) 
+  M2 = random.randint(0, 12)
   while(M1 == M2):
     M2 = randint(0, 12)
 
   PotB += PotA[M1]
   PotB += PotA[M2]
 
-  M3 = randint(0, 9)
+  M3 = random.randint(0, 9)
   return(PotB(M3))
 
 def simulation(n):
