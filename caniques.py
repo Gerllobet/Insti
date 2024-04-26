@@ -12,7 +12,7 @@ def caniques():
   PotB += PotA[M2]
 
   M3 = random.randint(0, 9)
-  return(PotB(M3))
+  return(PotB[M3])
 
 def simulation(n):
   i = int(n)
