@@ -30,9 +30,9 @@ def simulation(n):
     if(caniques() == "GB"):
       GB += 1
     i -= 1
-  print("YA = " + YA)
-  print("YB = " + YB)
-  print("GA = " + GA)
-  print("GB = " + GB)
+  print("YA = " + str(YA))
+  print("YB = " + str(YB))
+  print("GA = " + str(GA))
+  print("GB = " + str(GB))
 
 simulation(10)
