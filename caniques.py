@@ -1,7 +1,7 @@
 import random
 def caniques():
   PotA = ["YA", "YA", "YA", "YA", "YA", "GA", "GA", "GA", "GA", "GA", "GA", "GA", "GA"]
-  PotB = ["YB", "YB", "GA", "GA", "GA", "GA", "GA", "GA"]
+  PotB = ["YB", "YB", "GB", "GB", "GB", "GB", "GB", "GB"]
   
   M1 = random.randint(0, 12) 
   M2 = random.randint(0, 12)
