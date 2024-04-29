@@ -34,5 +34,15 @@ def simulation(n):
   print("YB = " + str(YB))
   print("GA = " + str(GA))
   print("GB = " + str(GB))
+  #return(YA/(YA+YB))
 
 simulation(10)
+
+'''
+f = 0
+t = 0
+while(f < 50):
+    t += simulation(10000)
+    f += 1
+print(t/f)
+'''
